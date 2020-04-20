@@ -72,6 +72,10 @@ def plot_qtransform(specsgrams, plot_normalized_energy_range, plot_time_ranges,
         title = "Livingston"
     elif detector_name == 'V1':
         title = "VIRGO"
+    elif detector_name == 'K1':
+        title = "KAGRA"
+    elif detector_name == 'G1':
+        title = "GEO"
     else:
         raise ValueError('You have supplied a detector '
                          'that is unknown at this time.')
